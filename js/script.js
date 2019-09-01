@@ -26,7 +26,6 @@ class Weatherdetails{
     }
     
     getcelsius(degree){
-      let x;
       let getcity = document.getElementById("getcity").value;
       let displaycity = document.getElementById("displaycity");
       let celsius = document.getElementById("celsius");
@@ -52,16 +51,15 @@ class Weatherdetails{
                       F.classList.remove("active");
       }
       else if(degree == 'C'){
-        x = (celsius.innerHTML -32)  * 5 / 9;
+        celsius.innerHTML = Math.round((celsius.innerHTML -32)  * 5 / 9);
         C.classList.add("active");
         F.classList.remove("active");
       }
       else if(degree == 'F'){
-        x = (celsius.innerHTML * 9 / 5) + 32;
+          celsius.innerHTML = Math.round((celsius.innerHTML * 9 / 5) + 32);
           F.classList.add("active");
           C.classList.remove("active");
       }
-      celsius.innerHTML = Math.round(x);
     }
 }
 
