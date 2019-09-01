@@ -1,8 +1,12 @@
 ## Weather app using api
 
+#### Author: Shaik Mudassir
+
 Hello , Alien
 Welcome to Weather app using api.
 This application display's current weather details of a particular city when selected
+
+
 ### languages
 
 1. HTMl
