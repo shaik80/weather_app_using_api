@@ -36,10 +36,16 @@ class Weatherdetails{
       let F =document.getElementById("F");  
       if (degree == 0){
           let a = fetch("https://api.openweathermap.org/data/2.5/weather?q="+getcity+"&appid="+appid)
-          .then(result => {
-            console.log(result.json())
+          .then(v => {
+            return v.json()
         })
-      }
+        .then(v =>{
+            console.log(imglink+v.weather[0].icon+".png")
+            emoji.src = "http://openweathermap.org/img/w/"+v.weather[0].icon+".png";
+            info.innerHTML = v.weather[0].description;
+            displaycity.innerHTML = v.name+v.sys.country;
+        })
+    }
       else if(degree == 'C'){
         celsius.innerHTML = Math.round((celsius.innerHTML -32)  * 5 / 9);
         C.classList.add("active");
