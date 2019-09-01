@@ -35,7 +35,7 @@ class Weatherdetails{
       let C =document.getElementById("C");
       let F =document.getElementById("F");  
       if (degree == 0){
-          let a = fetch("http://api.openweathermap.org/data/2.5/weather?q="+getcity+"&appid="+appid)
+          let a = fetch("https://api.openweathermap.org/data/2.5/weather?q="+getcity+"&appid="+appid)
           .then(result => {
             console.log(result.json)
         })
