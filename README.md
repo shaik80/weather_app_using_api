@@ -5,11 +5,12 @@ Welcome to Weather app using api
 This application display's current weather details of a particular city when selected
 ### languages
 
-HTMl,CSS,JS
+1. HTMl
+2. CSS
+3. JS
 
-```markdown
-Syntax highlighted code block
-
+```Api```
+[https://openweathermap.org/](https://openweathermap.org/)
 # Header 1
 ## Header 2
 ### Header 3
@@ -22,8 +23,8 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+ and ![Image](src)
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
