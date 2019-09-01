@@ -1,7 +1,7 @@
 ## Weather app using api
 
 Hello , Alien
-Welcome to Weather app using api
+Welcome to Weather app using api.
 This application display's current weather details of a particular city when selected
 ### languages
 
