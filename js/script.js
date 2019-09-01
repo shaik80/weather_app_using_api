@@ -33,7 +33,8 @@ class Weatherdetails{
       let info = document.getElementById("info");
       let emoji = document.getElementById("emoji");
       let C =document.getElementById("C");
-      let F =document.getElementById("F");  
+      let F =document.getElementById("F");
+      let loglat =  document.getElementById("longlat")
       if (degree == 0){
           let a = fetch("https://api.openweathermap.org/data/2.5/weather?q="+getcity+"&appid="+appid)
           .then(v => {
@@ -44,6 +45,8 @@ class Weatherdetails{
             emoji.src = "http://openweathermap.org/img/w/"+v.weather[0].icon+".png";
             info.innerHTML = v.weather[0].main;
             displaycity.innerHTML = v.name+","+v.sys.country;
+            celsius.innerHTML= Math.round(v.main.temp - 273.15);
+            longlat.href = "https://www.google.co.in/maps/place/"+v.name+","+v.sys.country+"/@"+v.coord.lat+","+v.coord.lon
         })
     }
       else if(degree == 'C'){
