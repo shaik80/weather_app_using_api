@@ -60,7 +60,7 @@ body{
 }
 .right .centered{
     padding-top: 20%;
-    padding-left: 5em;
+    padding-left: 3em;
 }
 .inputsize{
     width: 50%
@@ -86,4 +86,9 @@ body{
 .active{
     color:#1394f6;
     pointer-events: none;
+}
+
+#emoji{
+    height: 25px;
+    width: 25px;
 }

@@ -24,8 +24,9 @@ class Weatherdetails{
         let time = dayword[day]+"  "+h+":"+m+": "+s+" "+session;
         document.getElementById("daytime").innerHTML = time;
     }
-    
     getcelsius(degree){
+      let imglink ="http://openweathermap.org/img/w/";
+      let appid = "fa541811e28f223594a0e3a11717ffa4";
       let getcity = document.getElementById("getcity").value;
       let displaycity = document.getElementById("displaycity");
       let celsius = document.getElementById("celsius");
@@ -34,21 +35,10 @@ class Weatherdetails{
       let C =document.getElementById("C");
       let F =document.getElementById("F");  
       if (degree == 0){
-        let val =[
-            {city:"Bengaluru,Karnataka",celsius:"21",info:"partly Clould",img:"⛅"},
-            {city:"Hydrabad,Andhra Pradesh",celsius:"22",info:"partly Clould",img:"⛅"},
-            {city:"Chennai,Tamil Nadu",celsius:"32",info:"Sunny",img:"☀️"},
-            {city:"Mumbai,Maharashtra",celsius:"27",info:"Rain",img:"🌧️"}
-          ];
-          val.filter(v => (v.city.includes(getcity)))
-             .map(v=> {
-                    displaycity.innerHTML = v.city,
-                    celsius.innerHTML = v.celsius,
-                    info.innerHTML = v.info,
-                    emoji.innerHTML = v.img
-                      })
-                      C.classList.add("active");
-                      F.classList.remove("active");
+          let a = fetch("api.openweathermap.org/data/2.5/weather?q="+getcity+"&appid="+appid)
+          .then(result => {
+            console.log(result)
+        })
       }
       else if(degree == 'C'){
         celsius.innerHTML = Math.round((celsius.innerHTML -32)  * 5 / 9);
@@ -62,6 +52,7 @@ class Weatherdetails{
       }
     }
 }
-
+C.classList.add("active");
+F.classList.remove("active");
 weather = new Weatherdetails();
 setInterval(weather.showdaytime,1000)
