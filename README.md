@@ -9,21 +9,11 @@ This application display's current weather details of a particular city when sel
 2. CSS
 3. JS
 
-```Api```
-[https://openweathermap.org/](https://openweathermap.org/)
-# Header 1
-## Header 2
-### Header 3
+### Api
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
- and ![Image](src)
+Open Weather [https://openweathermap.org/](https://openweathermap.org/)
+###Images
+[Image](src)
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
