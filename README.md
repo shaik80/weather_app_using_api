@@ -1,6 +1,6 @@
 ## Weather app using api
 
-<center> #### Author: Shaik Mudassir</center>
+->  Author: Shaik Mudassir <-
 
 Hello , Alien
 Welcome to Weather app using api.
