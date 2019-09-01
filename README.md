@@ -13,5 +13,9 @@ This application display's current weather details of a particular city when sel
 
 Open Weather [https://openweathermap.org/](https://openweathermap.org/)
 
+### Live Demo
+
+Open Weather [https://shaik80.github.io/weather_app_using_api/](click here)
+
 ### Images
 <img src="https://github.com/shaik80/weather_app_using_api/blob/master/img/Weather%20App.png">
