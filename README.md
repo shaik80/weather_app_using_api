@@ -13,7 +13,8 @@ This application display's current weather details of a particular city when sel
 
 Open Weather [https://openweathermap.org/](https://openweathermap.org/)
 
-###Images
+### Images
+<img src="https://github.com/shaik80/weather_app_using_api/blob/master/img/Weather%20App.png">
 [image](https://github.com/shaik80/weather_app_using_api/blob/master/img/Weather%20App.png)
 
 
