@@ -42,8 +42,8 @@ class Weatherdetails{
         .then(v =>{
             console.log(imglink+v.weather[0].icon+".png")
             emoji.src = "http://openweathermap.org/img/w/"+v.weather[0].icon+".png";
-            info.innerHTML = v.weather[0].description;
-            displaycity.innerHTML = v.name+v.sys.country;
+            info.innerHTML = v.weather[0].main;
+            displaycity.innerHTML = v.name+","+v.sys.country;
         })
     }
       else if(degree == 'C'){
