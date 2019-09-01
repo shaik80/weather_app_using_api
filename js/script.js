@@ -53,16 +53,15 @@ class Weatherdetails{
       }
       else if(degree == 'C'){
         x = (celsius.innerHTML -32)  * 5 / 9;
-        celsius.innerHTML = Math.round(x);
         C.classList.add("active");
         F.classList.remove("active");
       }
       else if(degree == 'F'){
         x = (celsius.innerHTML * 9 / 5) + 32;
-          celsius.innerHTML = Math.round(x);
           F.classList.add("active");
           C.classList.remove("active");
       }
+      celsius.innerHTML = Math.round(x);
     }
 }
 
