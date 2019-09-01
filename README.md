@@ -12,8 +12,10 @@ This application display's current weather details of a particular city when sel
 ### Api
 
 Open Weather [https://openweathermap.org/](https://openweathermap.org/)
-###Images
-[Image](src)
+
+### Images
+<img src="https://github.com/shaik80/weather_app_using_api/blob/master/img/Weather%20App.png">
+[image](https://github.com/shaik80/weather_app_using_api/blob/master/img/Weather%20App.png)
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
