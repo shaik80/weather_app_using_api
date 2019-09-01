@@ -1,0 +1,61 @@
+<!-- Project Name: Weather app 
+     Description: This application display's weather details of a particular city when selected
+     language: HTMl,CSS,JS
+     Author: Shaik Mudassir
+     Github: https://github.com/shaik80
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="Github" content="https://github.com/shaik80">
+        <meta name="Author" content="Shaik Mudassir">
+        <title>Weather app</title>
+        <link rel = "icon" href ="./img/1.jpg" type = "image/x-icon"> 
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body>
+            <!-- start of left side -->
+            <div class="split left">
+                <div class="centered">
+                    <h1><span class="Weathercolor">Weather</span> App</h1>
+                </div>
+            </div>
+            <!-- end of left side -->
+
+            <!-- start of right side -->
+            <div class="split right">
+                <div class="weathercontainer">
+                    <p class="weatherdetails" id="displaycity">Bengaluru, Karnataka</p>
+                    <p class="linespace" id="daytime"></p>                          
+                    <div class="linespace" >
+                        <span id="info"> Party Cloudy</span> 
+                        <span id="emoji"></span>
+                    </div>
+                    <h1 class="temperature">
+                            <span id="celsius">20</span>
+                            <sup class="sign">
+                                <span class="celcius" onclick="weather.getcelsius('C')" id="C">&#8451;</span>|
+                                <span class="fahrenheit" onclick="weather.getcelsius('F')" id="F">&#8457;</span>
+                            </sup>
+                        </h1>
+                    <p >
+                </div>
+                <div class="centered">
+                    <label>Enter city name</label><br>
+                    <input list="city" class="inputsize" 
+                     placeholder="City,State" id="getcity" onchange="weather.getcelsius(0)">
+                    <datalist id="city">
+                        <option value="Bengaluru,Karnataka">
+                        <option value="Mumbai,Maharashtra">
+                        <option value="Hydrabad,Andhra Pradesh">
+                        <option value="Chennai,Tamil Nadu">
+                    </datalist>
+                </div>
+            </div>
+            <!-- end of right side -->
+
+        <script src="./js/script.js" type="text/javascript"></script>
+    </body>
+</html>
