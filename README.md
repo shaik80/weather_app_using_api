@@ -1,30 +1,20 @@
-## Welcome to GitHub Pages
+## Weather app using api
 
-You can use the [editor on GitHub](https://github.com/shaik80/weather_app_using_api/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Hello , Alien
+Welcome to Weather app using api
+This application display's current weather details of a particular city when selected
+### languages
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1. HTMl
+2. CSS
+3. JS
 
-### Markdown
+### Api
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Open Weather [https://openweathermap.org/](https://openweathermap.org/)
+###Images
+[Image](src)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
