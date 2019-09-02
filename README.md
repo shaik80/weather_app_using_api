@@ -3,7 +3,7 @@
 <b> Author: Shaik Mudassir </b>
 
 Hello , Alien
-Welcome to Weather app using api.
+welcome to weather app using api.
 This application display's current weather details of a particular city when selected
 
 
