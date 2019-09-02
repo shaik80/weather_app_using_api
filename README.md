@@ -1,6 +1,6 @@
 ## Weather app using api
 
-<p align="center"> <b> Author: Shaik Mudassir </b> </p>
+<b> Author: Shaik Mudassir </b>
 
 Hello , Alien
 Welcome to Weather app using api.
@@ -9,7 +9,7 @@ This application display's current weather details of a particular city when sel
 
 ### languages
 
-1. HTMl
+1. HTML
 2. CSS
 3. JS
 
