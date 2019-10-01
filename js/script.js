@@ -21,7 +21,7 @@ class Weatherdetails{
             h = h - 12;
             session = "PM";
           }
-        let time = dayword[day]+"  "+h+":"+m+": "+s+" "+session;
+        let time = dayword[day]+"  "+h+":"+m+":"+s+" "+session;
         document.getElementById("daytime").innerHTML = time;
     }
     getcelsius(degree){
