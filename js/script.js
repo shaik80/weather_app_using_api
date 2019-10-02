@@ -38,7 +38,7 @@ class Weatherdetails{
       if (degree == 0){
           let a = fetch("https://api.openweathermap.org/data/2.5/weather?q="+getcity+"&appid="+appid)
           .then(v => {
-            return v.json()
+            return console.log(v.json())
         })
         .then(v =>{
             console.log(imglink+v.weather[0].icon+".png")
